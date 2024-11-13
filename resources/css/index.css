@@ -1,0 +1,21 @@
+body {
+          display: flex;
+          flex-direction: column; /* Ubah ke kolom */
+          align-items: center;
+          min-height: 100vh; /* Agar body mengisi seluruh tinggi viewport */
+          background-color: #f8f9fa; /* Background yang lebih lembut */
+      }
+      
+      .navbar {
+          background-color: white;
+          width: 100%; /* Mengisi lebar layar */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan pada navbar */
+      }
+
+      .containerh .navbar-nav {
+        display: flex; /* Pastikan navbar-nav juga fleksibel */
+    }
+    
+    .navbar-nav .nav-item {
+        margin-left: 10px; /* Jarak antar item navbar */
+    }

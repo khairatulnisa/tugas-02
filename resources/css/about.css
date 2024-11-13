@@ -1,0 +1,36 @@
+.about-us-section {
+  padding: 20px;
+}
+
+.card-about {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  width: 300px;
+  height: 200px;
+}
+
+.card-img1-top {
+  width: 100%; /* Sesuaikan gambar dengan lebar card */
+  height: 100px; /* Tinggi tetap */
+  object-fit: cover; /* Memotong gambar agar sesuai tanpa distorsi */
+}
+
+.card-title1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.btn-success {
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  
+}
+
+.containert {
+  height: 600px;
+  background-color: white;
+}

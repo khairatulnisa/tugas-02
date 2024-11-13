@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.btn-tambah {
+  margin-bottom: 20px;
+  width: 150px;
+}
+.card-title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h2 {
+  text-shadow: 2px 2px 5px dimgray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Ubah ke kolom */
+  background-color: white;
+  width: 100%; /* Sesuaikan lebar */
+  min-width: 100px; /*Batas lebar maksimum*/
+  margin: auto; /*Pusatkan kontainer */
+  padding: 20px; /* Tambahkan padding */
+}
+
+.a {
+  width: 50%;
+  display: flex;
+  left: 10px;
+  top: 10px;
+}
+
+.btn-detail {
+  font-size: 12px;
+}
+
+.text {
+  background-color: whitesmoke;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #berita-section .card-title {
+    font-size: 1.1rem;
+  }
+
+  #berita-section .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #berita-section .card-title {
+    font-size: 1rem;
+  }
+
+  #berita-section .card-text {
+    font-size: 0.8rem;
+  }
+}

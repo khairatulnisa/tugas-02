@@ -1,0 +1,50 @@
+.bodyhd {
+  margin-top: 50px;
+  background-color: whitesmoke;
+}
+
+.containerhd {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Menjaga item sejajar secara vertikal */
+  padding: 40px 40px; /* Tambahkan padding di sekitar kontainer */
+  background-color: white;
+  width: 84%;
+  bottom: -280px;
+}
+
+.containerhd .logo {
+  min-height: 100px; /* Atur tinggi maksimum logo */
+}
+
+.imgh {
+  width: 400px;
+  height: 400px;
+}
+
+.containerh .navbar-nav {
+  display: flex; /* Pastikan navbar-nav juga fleksibel */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 10px; /* Jarak antar item navbar */
+}
+
+.cardhd {
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column; /* Ubah ke kolom */
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 90%; /* Sesuaikan lebar */
+  min-width: 400px; /* Batas lebar maksimum */
+  margin: auto; /* Pusatkan kontainer */
+  padding: 20px; /* Tambahkan padding */
+}
